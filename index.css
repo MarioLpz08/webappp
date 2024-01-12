@@ -27,8 +27,7 @@ body {
     flex: 1;   
     display: none;   
 }
-#seccio_1 {
-    display: flex;   
+#seccio_1 { 
     justify-content: center;   
     align-items: center;
     font-size: 4vmax;
@@ -63,3 +62,33 @@ body {
     width: 8vmax;
     height: auto;
   }
+#seccio_0 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vmax;
+}
+#credencials {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-size: 3vmax;
+    margin: 5vmin;
+}
+#credencials div {    
+    margin-bottom: 1vmin;
+}
+#credencials input {    
+    max-width: 20vmax;    
+    font-size: 3vmax;
+}
+#botons_sessio {
+    display: flex;
+    align-items: center;
+}
+#botons_sessio button {   
+    font-size: 3vmax;
+    padding: 2vmin;
+    margin: 1vmin;
+}
